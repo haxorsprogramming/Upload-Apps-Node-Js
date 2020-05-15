@@ -4,7 +4,7 @@ module.exports = {
 
     ctx.send(entries);
   },
-
+  //loading screen, jangan nge-spam
   preview: async ctx => {
     const imageFormat = ctx.request.body;
 
