@@ -9,7 +9,7 @@ const resetFormattedImageCache = async imageFormat => {
     strapi.query('formattedimage', 'image-formats').delete({
       id: record.id
     });
-
+    //hide provider
     const fileid = record.file[0].id;
 
     const uploadProviderConfig = await strapi
